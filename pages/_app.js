@@ -10,7 +10,8 @@ import 'react-notion-x/src/styles.css'
 import '@/styles/notion.css' //  重写部分样式
 
 // 代码样式  更多样式参考： https://github.com/PrismJS/prism-themes
-import 'prism-themes/themes/prism-material-light.css'
+// import 'prism-themes/themes/prism-material-light.css'
+import 'prism-themes/themes/prism-one-dark.css'
 
 // local webfont @see https://fontsource.org/
 import '@fontsource/noto-sans-sc'
@@ -19,7 +20,7 @@ import '@fontsource/noto-serif-sc'
 // local fontawesome 6.2.1 @see https://www.npmjs.com/package/@fortawesome/fontawesome-free
 import '@fortawesome/fontawesome-free/css/all.min.css'
 
-// import '@/styles/prism-mac-style.css' // code 左上角显示mac的红黄绿图标
+import '@/styles/prism-mac-style.css' // code 左上角显示mac的红黄绿图标
 
 import { GlobalContextProvider } from '@/lib/global'
 import { DebugPanel } from '@/components/DebugPanel'
